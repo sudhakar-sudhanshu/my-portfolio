@@ -1,0 +1,98 @@
+/* ===== EDUCATION SECTION ===== */
+
+.education {
+  padding: 100px 20px;
+  background: linear-gradient(180deg, #020617, #020617);
+  text-align: center;
+}
+
+/* Title */
+.edu-title {
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.edu-subtitle {
+  font-size: 15px;
+  color: #cbd5f5;
+  margin-bottom: 60px;
+}
+
+/* ===== GRID ===== */
+
+.education-grid {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+
+/* ===== CARD ===== */
+
+.edu-card {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 20px;
+  padding: 36px 28px;
+  text-align: center;
+  transition: all 0.4s ease;
+  position: relative;
+}
+
+/* Hover lift */
+.edu-card:hover {
+  transform: translateY(-10px);
+  border-color: #38bdf8;
+}
+
+/* Glow effect for MCA & BCA */
+.edu-card.glow {
+  box-shadow: 0 0 40px rgba(56, 189, 248, 0.15);
+}
+
+/* ===== ICON ===== */
+
+.edu-icon {
+  font-size: 38px;
+  margin-bottom: 14px;
+}
+
+/* ===== TEXT (HIGH VISIBILITY) ===== */
+
+.edu-card h3 {
+  font-size: 22px;
+  color: #38bdf8;
+  margin-bottom: 6px;
+}
+
+.edu-degree {
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+.edu-school {
+  font-size: 14px;
+  color: #e5e7eb;
+  margin-bottom: 6px;
+}
+
+.edu-year {
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+  .education-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .edu-title {
+    font-size: 32px;
+  }
+}
